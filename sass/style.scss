@@ -1,0 +1,21 @@
+@import "var"; /* Переменные */
+@import "mixin"; /* Миксины */
+@import "btn"; /* Кнопки */
+@import "ico"; /* Иконки */
+@import "modal"; /* Модальное окно */
+@import "font"; /* Модальное окно */
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+} /* Стиль по умолчанию */
+@import "header"; /* Шапка */
+@import "page"; /* Основные стили */
+@import "option"; /* Опциональные стили */
+@import "footer"; /* Подвал */
+@import "media"; /* Медиа запросы */

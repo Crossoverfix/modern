@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* ╨Я╨╡╤А╨╡╨╝╨╡╨╜╨╜╤Л╨╡ */
+/* ╨Ь╨╕╨║╤Б╨╕╨╜╤Л */
+/* line 1, _btn.scss */
+button, button:active, button:hover, button:visited, button:focus {
+  outline: none !important;
+  cursor: pointer;
+}
+
+/* ╨Ъ╨╜╨╛╨┐╨║╨╕ */
+/* ╨Ш╨║╨╛╨╜╨║╨╕ */
+/* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
+@font-face {
+  font-family: 'Europe Bold';
+  src: url("../assets/font/EUR_bold.eot");
+  src: url("../assets/font/EUR_bold.eot?#iefix") format("embedded-opentype"), url("../assets/font/EUR_bold.ttf") format("truetype"), url("../assets/font/EUR_bold.woff") format("woff"), url("../assets/font/EUR_bold.svg") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+/* ╨Ь╨╛╨┤╨░╨╗╤М╨╜╨╛╨╡ ╨╛╨║╨╜╨╛ */
+/* line 7, style.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 10, style.scss */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+/* ╨б╤В╨╕╨╗╤М ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О */
+/* ╨и╨░╨┐╨║╨░ */
+/* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
+/* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
+/* ╨Я╨╛╨┤╨▓╨░╨╗ */
+/* ╨Ь╨╡╨┤╨╕╨░ ╨╖╨░╨┐╤А╨╛╤Б╤Л */
