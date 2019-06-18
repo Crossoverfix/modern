@@ -30,10 +30,439 @@ body {
   padding: 0;
   overflow-x: hidden;
   background-color: white;
+  font-family: Arial;
 }
 
 /* ╨б╤В╨╕╨╗╤М ╨┐╨╛ ╤Г╨╝╨╛╨╗╤З╨░╨╜╨╕╤О */
+/* line 1, _header.scss */
+.header {
+  width: 100%;
+  position: relative;
+}
+/* line 4, _header.scss */
+.header__wrap {
+  width: 1112px;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+/* line 13, _header.scss */
+.header__wrap__logo {
+  width: 215px;
+  margin-right: 10px;
+  position: relative;
+}
+/* line 17, _header.scss */
+.header__wrap__logo a {
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+/* line 22, _header.scss */
+.header__wrap__logo a img {
+  width: 100%;
+}
+/* line 27, _header.scss */
+.header__wrap__title {
+  margin-right: auto;
+}
+/* line 29, _header.scss */
+.header__wrap__title p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #454444;
+  text-align: center;
+}
+/* line 36, _header.scss */
+.header__wrap__call-back {
+  position: relative;
+  width: 216px;
+}
+/* line 39, _header.scss */
+.header__wrap__call-back span {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #454444;
+}
+/* line 47, _header.scss */
+.header__wrap__call-back p {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  font-size: 24px;
+  color: #454444;
+}
+/* line 55, _header.scss */
+.header__wrap__call-back button {
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  color: white;
+  background: url("../assets/img/button_wave.png") no-repeat #ed1c24;
+  background-size: 100% 100%;
+  font-weight: 600;
+}
+/* line 66, _header.scss */
+.header__wrap__call-back button:hover {
+  background: url("../assets/img/button_wave.png") no-repeat #c61c24;
+  background-size: 100% 100%;
+}
+/* line 73, _header.scss */
+.header__nav-bar {
+  width: 100%;
+  height: 48px;
+  position: relative;
+  background: url("../assets/img/wave.png") no-repeat #0191e1;
+  background-size: 100% 100%;
+}
+/* line 79, _header.scss */
+.header__nav-bar ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 1246px;
+}
+/* line 90, _header.scss */
+.header__nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/* line 95, _header.scss */
+.header__nav-bar ul li a:hover {
+  opacity: 0.8;
+}
+
 /* ╨и╨░╨┐╨║╨░ */
+/* line 1, _page.scss */
+.welcome {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+  background: url("../assets/img/first_bg.png") no-repeat top center;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+/* line 9, _page.scss */
+.welcome__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 1240px;
+}
+/* line 19, _page.scss */
+.welcome__left__title {
+  font-size: 36px;
+  color: white;
+  display: inline-block;
+  line-height: 43px;
+  padding: 0 5px;
+  background-color: #545555;
+  margin-bottom: 50px;
+}
+/* line 28, _page.scss */
+.welcome__left__list {
+  list-style-type: none;
+  position: relative;
+  left: -30px;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+/* line 34, _page.scss */
+.welcome__left__list li {
+  position: relative;
+  height: 22px;
+  margin-bottom: 10px;
+  color: #3e3f40;
+  font-size: 14px;
+  line-height: 22px;
+  vertical-align: bottom;
+  padding-left: 32px;
+  text-shadow: 0px 0px 5px white;
+}
+/* line 44, _page.scss */
+.welcome__left__list li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 28px;
+  height: 100%;
+  background: url("../assets/img/check.png") no-repeat center;
+  background-size: contain;
+}
+/* line 56, _page.scss */
+.welcome__left__btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  width: auto;
+  height: 34px;
+  color: white;
+  padding: 0 20px;
+  background: url("../assets/img/button_wave_2.png") no-repeat #ed1c24;
+  background-size: 100% 100%;
+  font-weight: 600;
+}
+/* line 67, _page.scss */
+.welcome__left__btn:hover {
+  background: url("../assets/img/button_wave_2.png") no-repeat #c61c24;
+  background-size: 100% 100%;
+}
+/* line 72, _page.scss */
+.welcome__left__after {
+  margin-top: 30px;
+  color: #3e3f40;
+  font-size: 14px;
+}
+/* line 79, _page.scss */
+.welcome__right__point {
+  margin-top: 20px;
+  position: relative;
+}
+/* line 82, _page.scss */
+.welcome__right__point__ico {
+  width: 60px;
+  height: 70px;
+  margin: 0 auto;
+  background-size: contain !important;
+  margin-bottom: 15px;
+}
+/* line 89, _page.scss */
+.welcome__right__point h3 {
+  text-align: center;
+  font-size: 18px;
+  color: #454444;
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-shadow: 0px 0px 5px white;
+}
+/* line 97, _page.scss */
+.welcome__right__point p {
+  text-align: center;
+  font-size: 14px;
+  color: #454444;
+  margin-bottom: 5px;
+  margin-top: 0;
+  text-shadow: 0px 0px 5px white;
+}
+
+/* line 108, _page.scss */
+.advantages {
+  padding: 15px 0;
+}
+/* line 110, _page.scss */
+.advantages__content {
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+/* line 119, _page.scss */
+.advantages__point {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+/* line 124, _page.scss */
+.advantages__point__ico {
+  background-size: contain !important;
+  width: 50px;
+  height: 54px;
+  margin-right: 5px;
+}
+/* line 130, _page.scss */
+.advantages__point p {
+  font-size: 14px;
+  color: #454444;
+  text-align: center;
+  padding-right: 50px;
+}
+
+/* line 138, _page.scss */
+.special {
+  padding-top: 40px;
+  padding-bottom: 65px;
+  background: url("../assets/img/special_footer.png") no-repeat center bottom;
+  background-size: 100% auto;
+}
+/* line 143, _page.scss */
+.special__content {
+  width: 1240px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+/* line 152, _page.scss */
+.special__info {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+/* line 156, _page.scss */
+.special__info h2 {
+  color: #454444;
+  font-size: 33px;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* line 163, _page.scss */
+.special__info p {
+  color: #454444;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+/* line 169, _page.scss */
+.special__info p b {
+  font-size: 24px;
+}
+/* line 173, _page.scss */
+.special__info button {
+  margin: 0 auto 25px auto;
+  border: none;
+  outline: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  background: url("../assets/img/special_btn_1.png") no-repeat #ed1c24;
+  background-size: 100% 100%;
+  font-weight: 600;
+  position: relative;
+}
+/* line 187, _page.scss */
+.special__info button:before {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 65px;
+  background: url("../assets/img/thri_arrow.png") no-repeat center;
+  background-size: contain;
+  top: 50%;
+  right: -155px;
+  transform: translateY(-50%);
+}
+/* line 198, _page.scss */
+.special__info button:hover {
+  background: url("../assets/img/special_btn_1.png") no-repeat #c61c24;
+  background-size: 100% 100%;
+}
+/* line 203, _page.scss */
+.special__info span {
+  color: #454444;
+  font-size: 11px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  align-self: flex-end;
+}
+/* line 212, _page.scss */
+.special__form {
+  padding: 40px 20px 0px 20px;
+  border: solid 5px #454444;
+  background-color: #e6e5e5;
+}
+/* line 216, _page.scss */
+.special__form form {
+  display: flex;
+  flex-direction: column;
+}
+/* line 220, _page.scss */
+.special__form h3 {
+  font-size: 24px;
+  font-weight: normal;
+  color: #454444;
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+/* line 228, _page.scss */
+.special__form p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  color: #454444;
+  margin-top: 0;
+  text-align: center;
+}
+/* line 235, _page.scss */
+.special__form span {
+  width: 300px;
+  height: 48px;
+  border: solid 1px #4b4b4b;
+  background-color: white;
+  position: relative;
+  margin-bottom: 12px;
+}
+/* line 242, _page.scss */
+.special__form span input {
+  width: 100%;
+  height: 100%;
+  line-height: 46px;
+  text-align: center;
+  color: #454444;
+  font-size: 18px;
+  border: none;
+  outline: none;
+}
+/* line 253, _page.scss */
+.special__form__btn {
+  border: none;
+  outline: none;
+  display: inline-block;
+  width: 100%;
+  height: 34px;
+  padding: 0;
+  background: url("../assets/img/special_btn_2.png") no-repeat #ed1c24 !important;
+  background-size: 100% 100%;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+/* line 265, _page.scss */
+.special__form__btn:hover {
+  background: url("../assets/img/special_btn_2.png") no-repeat #c61c24 !important;
+  background-size: 100% 100%;
+}
+/* line 269, _page.scss */
+.special__form__btn input {
+  color: white !important;
+  background-color: transparent;
+  border: none;
+}
+
 /* ╨Ю╤Б╨╜╨╛╨▓╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* ╨Ю╨┐╤Ж╨╕╨╛╨╜╨░╨╗╤М╨╜╤Л╨╡ ╤Б╤В╨╕╨╗╨╕ */
 /* ╨Я╨╛╨┤╨▓╨░╨╗ */
