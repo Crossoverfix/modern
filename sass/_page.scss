@@ -274,3 +274,269 @@
     }
   }
 }
+.top-sales{
+  margin-top: 2px;
+  border-top: 2px solid #0283cb;
+  border-bottom: 2px solid #0283cb;
+  position: relative;
+  background: url("../assets/img/bg__fish.png")repeat left top;
+  background-size: 1240px;
+  &__content{
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+  &__left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    &__bg{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover!important;
+      background-position: center!important;
+      z-index: -1;
+    }
+    &__title{
+      width: 100%;
+      text-align: right;
+      padding-right: 40px;
+      margin-top: 15px;
+      color: $c-text-d;
+      font-size: 14px;
+      text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+    }
+    &__info{
+      width: 100%;
+      text-align: left;
+      padding-left: 40px;
+      margin-top: auto;
+      margin-bottom: 20px;
+      color: $c-text-d;
+      font-size: 14px;
+      text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+      a{
+        text-shadow: none;
+        color: white;
+        margin: 0 3px;
+        padding: 10px 8px;
+        text-decoration: none;
+        background: url("../assets/img/sales_btn_1.jpg")no-repeat center;
+        background-size: 100% 100%;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  &__center{
+    padding: 30px;
+    background-color: #e4e8eb;
+    h3{
+      text-align: center;
+      font-size: 24px;
+      color: #f11f28;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    p{
+      font-size: 14px;
+      color: $c-text-d;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    ul{
+      list-style-type: none;
+      margin: 0;
+      position: relative;
+      padding: 0 10px;
+      li{
+        width: 100%;
+        margin-bottom: 5px;
+        a{
+          display: inline-block;
+          width: 100%;
+          position: relative;
+          padding-left: 65px;
+          line-height: 36px;
+          color: $c-text-d;
+          font-size: 18px;
+          text-decoration: none;
+          &.active{
+            color: #0191e1;
+            &:before{
+              background: url("../assets/img/list_red.png")no-repeat center;
+              background-size: 100% 100%;
+            }
+          }
+          &:before{
+            content: "";
+            position: absolute;
+            width: 38px;
+            height: 38px;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            background: url("../assets/img/list_grey.png")no-repeat center;
+            background-size: 100% 100%;
+          }
+          &:after{
+            content: "";
+            position: absolute;
+            width: calc(100% - 55px);
+            height: 1px;
+            border-bottom: 1px dotted $c-text-d;
+            right: 0;
+            bottom: -3px;
+          }
+        }
+      }
+    }
+  }
+  &__right{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+    &__bg{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover!important;
+      background-position: center!important;
+      z-index: -1;
+    }
+    p{
+      width: 100%;
+      text-align: right;
+      padding-right: 5px;
+      margin-top: auto;
+      margin-bottom: 5px;
+      color: $c-text-d;
+      font-size: 14px;
+      line-height: 20px;
+      text-shadow: 0px 0px 5px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white, 0px 0px 10px white;
+      a{
+        text-shadow: none;
+        color: white;
+        display: inline-block;
+        margin-bottom: 5px;
+        padding: 10px 12px;
+        text-decoration: none;
+        background: url("../assets/img/sales_btn_2.jpg")no-repeat center;
+        background-size: 100% 100%;
+        &:hover{
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}
+.top-advantages{
+  padding: 15px 0;
+  background: url("../assets/img/bg__fish.png")repeat center;
+  background-size: auto;
+  &__content{
+    width: 1240px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  &__point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    &__ico{
+      background-size: contain!important;
+      width: 50px;
+      height: 54px;
+      margin-right: 5px;
+    }
+    p{
+      font-size: 14px;
+      color: $c-text-d;
+      text-align: center;
+    }
+  }
+}
+.feedback{
+  background-color: #545555;
+  border: 2px solid #3e3f40;
+  padding: 5px 0;
+  &__content{
+    width: 1240px;
+    margin: 0 auto;
+    position: relative;
+    form{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+    }
+  }
+  &__title{
+    font-size: 24px;
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+  }
+  &__input{
+    width: 260px;
+    height: 32px;
+    border: solid 1px #141414;
+    background-color: white;
+    position: relative;
+    input{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      font-size: 18px;
+      color: $c-text-d;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+    &__submit{
+       width: 160px;
+      height: 31px;
+      text-align: center;
+      position: relative;
+      background: url("../assets/img/feedback_btn.png")no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+      &:hover{
+        opacity: 0.8;
+      }
+      input{
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        font-size: 18px;
+      }
+    }
+  }
+}
