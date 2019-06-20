@@ -40,4 +40,10 @@ $(document).ready(function () {
         }
         return false;
     })
+    ymaps.ready(function () {
+        var myMap = new ymaps.Map("contact_map", {
+            center: [55.441875, 37.724598],
+            zoom: 18
+        });
+    });
 })
