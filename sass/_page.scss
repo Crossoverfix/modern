@@ -736,6 +736,10 @@
       margin-bottom: 12px;
       position: relative;
       width: 100%;
+      display: none;
+      &.active{
+        display: block;
+      }
       &__wrap{
         padding: 0 40px;
         position: relative;
