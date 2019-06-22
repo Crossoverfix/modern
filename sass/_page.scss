@@ -737,13 +737,15 @@
       position: relative;
       width: 100%;
       display: none;
+      padding: 0 40px;
       &.active{
         display: block;
       }
       &__wrap{
-        padding: 0 40px;
+        //padding: 0 40px;
         position: relative;
         width: 100%;
+        //overflow: hidden;
       }
       &__frame{
         width: 33%;
@@ -812,7 +814,7 @@
         &__prev{
           position: absolute;
           left: 0;
-          top: calc(50% - 40px);
+          top: 50%;
           transform: translateY(-50%);
           width: 16px;
           height: 58px;
@@ -823,7 +825,7 @@
         &__next{
           position: absolute;
           right: 0;
-          top: calc(50% - 30px);
+          top: 50%;
           transform: translateY(-50%);
           width: 16px;
           height: 58px;

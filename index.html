@@ -11,6 +11,8 @@
             src="https://code.jquery.com/jquery-3.3.1.js"
             integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
             crossorigin="anonymous"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <link href="sass/swiper.min.css" rel="stylesheet">
     <link href="sass/style.css" rel="stylesheet">
     <script src="https://api-maps.yandex.ru/2.1/?apikey=5cc7825f-dac4-4cf3-bd0c-982754e8e1f2&amp;lang=ru_RU" type="text/javascript">
     </script>
@@ -281,44 +283,159 @@
                 </div>
             </div>
             <div class="catalog__slider">
-                <div data-slider-type="first" class="catalog__slider__line active">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
-                            <div class="catalog__slider__line__frame__img">
-                                <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
-                            </div>
-                            <div class="catalog__slider__line__frame__info">
-                                <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
-                                <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
-                            </div>
-                        </div><!--
-                         --><div class="catalog__slider__line__frame">
-                            <div class="catalog__slider__line__frame__img">
-                                <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
-                            </div>
-                            <div class="catalog__slider__line__frame__info">
-                                <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
-                                <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
-                            </div>
-                        </div><!--
-                         --><div class="catalog__slider__line__frame">
-                            <div class="catalog__slider__line__frame__img">
-                                <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
-                            </div>
-                            <div class="catalog__slider__line__frame__info">
-                                <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
-                                <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
-                            </div>
-                        </div><!--
-                     --></div>
+                <div data-slider-type="first" data-slider-price="low" class="catalog__slider__line active">
                     <div class="catalog__slider__line__control">
-                        <a href="#" class="catalog__slider__line__control__prev"></a>
-                        <a href="#" class="catalog__slider__line__control__next"></a>
+                        <div class="catalog__slider__line__control__prev swiper-button-prev_1" ></div>
+                        <div class="catalog__slider__line__control__next swiper-button-next_1"></div>
                     </div>
+                    <div class="catalog__slider__line__mod-wrap swiper-container swiper-container_1">
+                        <div class="catalog__slider__line__wrap swiper-wrapper">
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var swiper1 = new Swiper('.swiper-container_1', {
+                            slidesPerView: 3,
+                            // spaceBetween: 30,
+                            loop: true,
+                            navigation: {
+                                nextEl: ('.swiper-button-next_1'),
+                                prevEl: ('.swiper-button-prev_1'),
+                            },
+                        });
+                    </script>
                 </div>
-                <div data-slider-type="first" class="catalog__slider__line active">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="first" data-slider-price="low" class="catalog__slider__line active">
+                    <div class="catalog__slider__line__control">
+                        <div class="catalog__slider__line__control__prev swiper-button-prev_2" ></div>
+                        <div class="catalog__slider__line__control__next swiper-button-next_2"></div>
+                    </div>
+                    <div class="catalog__slider__line__mod-wrap swiper-container swiper-container_2">
+                        <div class="catalog__slider__line__wrap swiper-wrapper">
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                            <div class="catalog__slider__line__frame swiper-slide">
+                                <div class="catalog__slider__line__frame__img">
+                                    <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
+                                </div>
+                                <div class="catalog__slider__line__frame__info">
+                                    <p class="catalog__slider__line__frame__info__name">кухня МАРИЯ</p>
+                                    <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        var swiper2 = new Swiper('.swiper-container_2', {
+                            slidesPerView: 3,
+                            // spaceBetween: 30,
+                            loop: true,
+                            navigation: {
+                                nextEl: ('.swiper-button-next_2'),
+                                prevEl: ('.swiper-button-prev_2'),
+                            },
+                        });
+                    </script>
+                </div>
+                <div data-slider-type="first" data-slider-price="middle" class="swiper-container catalog__slider__line active">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_4.jpg')"></div>
                         </div>
@@ -327,7 +444,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_5.jpg')"></div>
                         </div>
@@ -336,7 +453,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_6.jpg')"></div>
                         </div>
@@ -351,9 +468,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="first" class="catalog__slider__line active">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="first" data-slider-price="hight" class="swiper-container catalog__slider__line active">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_7.jpg')"></div>
                         </div>
@@ -362,7 +479,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_8.jpg')"></div>
                         </div>
@@ -371,7 +488,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_9.jpg')"></div>
                         </div>
@@ -386,9 +503,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="second" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="second" data-slider-price="low" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
                         </div>
@@ -397,7 +514,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
                         </div>
@@ -406,7 +523,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
                         </div>
@@ -421,9 +538,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="second" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="second" data-slider-price="middle" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_4.jpg')"></div>
                         </div>
@@ -432,7 +549,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_5.jpg')"></div>
                         </div>
@@ -441,7 +558,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_6.jpg')"></div>
                         </div>
@@ -456,9 +573,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="third" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="third" data-slider-price="low" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_7.jpg')"></div>
                         </div>
@@ -467,7 +584,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_8.jpg')"></div>
                         </div>
@@ -476,7 +593,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_9.jpg')"></div>
                         </div>
@@ -491,9 +608,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="third" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="third" data-slider-price="middle" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
                         </div>
@@ -502,7 +619,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
                         </div>
@@ -511,7 +628,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
                         </div>
@@ -526,9 +643,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="four" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="four" data-slider-price="low" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_4.jpg')"></div>
                         </div>
@@ -537,7 +654,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_5.jpg')"></div>
                         </div>
@@ -546,7 +663,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_6.jpg')"></div>
                         </div>
@@ -561,9 +678,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="four" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="four" data-slider-price="middle" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_7.jpg')"></div>
                         </div>
@@ -572,7 +689,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_8.jpg')"></div>
                         </div>
@@ -581,7 +698,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_9.jpg')"></div>
                         </div>
@@ -596,9 +713,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="five" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="five" data-slider-price="low" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_1.jpg')"></div>
                         </div>
@@ -607,7 +724,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_2.jpg')"></div>
                         </div>
@@ -616,7 +733,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_3.jpg')"></div>
                         </div>
@@ -631,9 +748,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="five" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="five" data-slider-price="middle" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_4.jpg')"></div>
                         </div>
@@ -642,7 +759,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_5.jpg')"></div>
                         </div>
@@ -651,7 +768,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_6.jpg')"></div>
                         </div>
@@ -666,9 +783,9 @@
                         <a href="#" class="catalog__slider__line__control__next"></a>
                     </div>
                 </div>
-                <div data-slider-type="five" class="catalog__slider__line">
-                    <div class="catalog__slider__line__wrap"><!--
-                        --><div class="catalog__slider__line__frame">
+                <div data-slider-type="five" data-slider-price="hight" class="swiper-container catalog__slider__line">
+                    <div class="catalog__slider__line__wrap swiper-wrapper"><!--
+                        --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_7.jpg')"></div>
                         </div>
@@ -677,7 +794,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_8.jpg')"></div>
                         </div>
@@ -686,7 +803,7 @@
                             <a href="#" class="catalog__slider__line__frame__info__buy">25 000 </a>
                         </div>
                     </div><!--
-                         --><div class="catalog__slider__line__frame">
+                         --><div class="catalog__slider__line__frame swiper-slide">
                         <div class="catalog__slider__line__frame__img">
                             <div class="catalog__slider__line__frame__img__images" style="background: url('assets/img/pic_9.jpg')"></div>
                         </div>
